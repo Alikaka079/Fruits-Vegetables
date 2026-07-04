@@ -1,0 +1,284 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: aqua;
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #0A490A;
+}
+nav h1{
+    width: 138px;
+    height: 48px;
+    position: absolute;
+    top: 49px;
+    left: 242px;
+    font-family: Kadwa;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #ffffff;
+}
+ul{
+    
+    list-style-type: none;
+    position: absolute;
+    top: 51px;
+    left: 432px;
+
+}
+li{
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+}
+.Home{
+    width: 59px;
+    height: 40px;
+    font-family: Kadwa;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+}
+.Fruit{
+    width: 49px;
+    height: 40px;
+    font-family: Kadwa;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+.Vegetable{
+    width: 96px;
+    height: 40px;
+    font-family: Kadwa;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+.search-container{
+    border: 1px solid #ffffff;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 330px;
+    width: 350px;
+    height: 40px;
+}
+.inputimg{
+    width: 30px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+}
+.input-and-search{
+        width: 170px;
+        height: 40px;
+}
+    
+.search{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 150px;
+}
+.search::placeholder{
+    color: #FFFFFF;
+}
+.input-and-search{
+    width: 200px;
+    height: 40px;
+}
+.muneinpuyt{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    width: 150px;
+    height: 40px;
+    border-left: 1px solid #ffffff;
+}
+.muneinpuyt p{
+    color: #FFFFFF;
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    
+}
+.muneinpuyt svg{
+    color: #FFFFFF;
+    position: absolute;
+    top: 14px;
+    left: 120px;
+    
+}
+.item{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    color: #ffffff;
+}
+.item1 , .item2 , .item3{
+    width: 70px;
+    height: 80px;
+}
+.item3 img{
+    width: 32px;
+    height: 30px;
+}
+/* main */
+.main{
+
+    position: relative;
+    background-color: #FF07A0;
+    width: 100%;
+    height: 78%;
+    
+
+}
+.main .DailyDiscounti{
+
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    background-color: #B4C8B1;
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    line-height: 23px;
+    text-align: center;
+    color: #0A490A;
+    font-family: Kadwa;
+    font-weight: 400;
+
+}
+.main h1{
+    position: absolute;
+    top: 60px;
+    left: 130px;
+    color: #0A490A;
+    width: 540px;
+    height: 190px;
+    font-family: Kadwa;
+    font-weight: 700;
+    font-size: 82px;
+}
+.main p{
+    position: absolute;
+    top: 310px;
+    left: 130px;
+    width: 868px;
+    height: 126px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #0A490A;
+}
+.main .img1{
+    position: absolute;
+    top: 80px;
+    left: 956px;
+    height: 450px;
+}
+.mainimg1{
+    /* position: absolute;
+    top: 80px;
+    left: 130px; */
+    width: 20px;
+}
+.iteem20{
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    line-height: 23px;
+    text-align: center;
+    color: #0A490A;
+}
+.main .img2{
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 120px;
+}
+.main .ddte{
+    position: absolute;
+    top: 136px;
+    left: 605px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+.butten{
+    background-color: #B4C8B1;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    position: absolute;
+    top: 475px;
+    left: 125px;
+}
+.butten span{
+    color: #0A490A;
+    font-weight: 700;
+    font-size: 20px;
+}
+.butten svg{
+    position: absolute;
+    left: 180px;
+}
+.main2{
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 70%;
+    padding: 1px;
+}
+.main2 .sec{
+    position: absolute;
+    top: 100px;
+    border: 5px solid #0A490A;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    text-align: center;
+    line-height: 130px;
+
+}
+.main2 .sec .sec1{
+    width: 50%;
+    height: 100%;
+    background-color: #B4C8B1;
+}
+.main2 .sec .sec1 span{
+    font-size: 30px;
+    color: #0A490A;
+    font-weight: bold;
+}
+
+.main2 .sec .sec2{
+    width: 50%;
+    height: 100%;
+    background-color: #32e117;
+}
+.main2 .sec .sec2 span{
+    
+    color: #0A490A;
+    background-color: #FFC107;
+    padding: 15px;
+    width: 100px;
+    display: inline-block;
+}
